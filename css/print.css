@@ -1,9 +1,7 @@
 /* -------------------------------------------------------------- 
-  
- Hartija Css Print  Framework
-   * Version:   0.8 (2008-03-10)
    
-   * In use by BlueTripCSS
+   * print.css - BlueTrip CSS Framework
+   * Thanks to Hartija Print Framework
 	 
 -------------------------------------------------------------- */
 
@@ -45,11 +43,7 @@ caption { background: #fff; margin-bottom:2em; text-align:left; }
 thead {display: table-header-group;}
 tr {page-break-inside: avoid;} 
 
-/*hide various parts from the site*/
+/*add sections here to hide various parts from the site*/
 
-#header, #footer, #navigation, #rightSideBar, #leftSideBar 
+#header, #footer, #navigation, #sidebar, button, a.button
 {display:none;}
-
-.container a.button, .container button {
-  display:none;
-}

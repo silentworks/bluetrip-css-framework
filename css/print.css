@@ -1,9 +1,7 @@
-/* -------------------------------------------------------------- 
-   
-   * print.css - BlueTrip CSS Framework
-   * Thanks to Hartija Print Framework
-	 
--------------------------------------------------------------- */
+/*
+ print.css - BlueTrip CSS Framework
+ Thanks to Hartija Print Framework
+*/
 
 body { 
 width:100% !important;
@@ -44,6 +42,4 @@ thead {display: table-header-group;}
 tr {page-break-inside: avoid;} 
 
 /*add sections here to hide various parts from the site*/
-
-#header, #footer, #navigation, #sidebar, button, a.button
-{display:none;}
+#header, #footer, #navigation, #sidebar, button, a.button {display:none;}
